@@ -49,7 +49,7 @@ The `status-bar` API has four methods:
   * `addLeftTile({ item, priority })` - Add a tile to the left side of the status bar. Lower priority tiles are placed further to the left.
   * `addRightTile({ item, priority })` - Add a tile to the right side of the status bar. Lower priority tiles are placed further to the right.
 
-The `item` parameter to these methods can be a DOM element, a [jQuery object](http://jquery.com), or a model object for which a view provider has been registered in the [the view registry](https://atom.io/docs/api/latest/ViewRegistry).
+The `item` parameter to these methods can be a DOM element, a [jQuery object](http://jquery.com), or a model object for which a view provider has been registered in the [the view registry](https://docs.pulsar-edit.dev/api/pulsar/latest/ViewRegistry).
 
   * `getLeftTiles()` - Retrieve all of the tiles on the left side of the status bar.
   * `getRightTiles()` - Retrieve all of the tiles on the right side of the status bar

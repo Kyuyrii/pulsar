@@ -3,7 +3,7 @@
 Adds syntax highlighting to hyperlinks embedded in strings, comments, and plain
 text in Pulsar.
 
-Originally [converted](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#converting-from-textmate)
+Originally [converted](https://docs.pulsar-edit.dev/core-hacking/#converting-from-textmate)
 from the [Hyperlink Helper TextMate bundle](https://github.com/textmate/hyperlink-helper.tmbundle).
 
 Contributions are greatly appreciated. Please fork this repository and open a

@@ -232,11 +232,11 @@ function renderMarkdown(content, givenOpts = {}) {
                   let link = attr[1];
 
                   if (mdComponents.reg.atomLinks.package.test(link)) {
-                    // Fix any links that attempt to point to packages on `https://atom.io/packages/...`
+                    // Fix any links that attempt to point to packages on `https://packages.pulsar-edit.dev/...`
                     attr[1] = `https://web.pulsar-edit.dev/packages/${link.match(mdComponents.reg.atomLinks.package)[1]}`;
                   } else if (mdComponents.reg.atomLinks.flightManual.test(link)) {
                     // Resolve any links to the flight manual to web archive
-                    attr[1] = link.replace(mdComponents.reg.atomLinks.flightManual, "https://web.archive.org/web/20221215003438/https://flight-manual.atom.io/");
+                    attr[1] = link.replace(mdComponents.reg.atomLinks.flightManual, "https://web.archive.org/web/20221215003438/https://docs.pulsar-edit.dev/");
                   }
                 }
               });

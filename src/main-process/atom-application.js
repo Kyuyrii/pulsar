@@ -577,13 +577,13 @@ module.exports = class AtomApplication extends EventEmitter {
     });
 
     this.on('application:open-documentation', () =>
-      shell.openExternal('https://pulsar-edit.dev/docs/')
+      shell.openExternal('https://docs.pulsar-edit.dev/')
     );
     this.on('application:open-discussions', () =>
       shell.openExternal('https://github.com/orgs/pulsar-edit/discussions')
     );
     this.on('application:open-faq', () =>
-      shell.openExternal('https://pulsar-edit.dev/docs/launch-manual/sections/faq/')
+      shell.openExternal('https://docs.pulsar-edit.dev/faq/')
     );
     this.on('application:open-terms-of-use', () =>
       shell.openExternal('https://atom.io/terms') //TODO: This needs to be updated for when we have our own published on the site

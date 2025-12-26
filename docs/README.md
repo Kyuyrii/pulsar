@@ -2,7 +2,7 @@
 
 ![Atom](https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png)
 
-Most of the Pulsar/Atom user and developer documentation is contained on the [Pulsar Website](https://pulsar-edit.dev/docs/launch-manual/).
+Most of the Pulsar/Atom user and developer documentation is contained on the [Pulsar Website](https://docs.pulsar-edit.dev/launch-manual/).
 
 While the Pulsar website does not yet have the Pulsar API documentation, this is partially available within [Pulsar API Documentation](./Pulsar-API-Documentation.md) or otherwise the original docs are available from community members [here](https://atom-flight-manual-archive.github.io/).
 
@@ -12,7 +12,7 @@ There is also general guidance on the internal [stucture and behavior](./archite
 
 Instructions for building Atom on various platforms from source.
 
-* Moved to [the Flight Manual](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/)
+* Moved to [the Flight Manual](https://docs.pulsar-edit.dev/core-hacking/)
     * Linux
     * macOS
     * Windows

@@ -103,7 +103,7 @@
     },
     "scopeBlacklist": {
       "title": "Scope Blacklist",
-      "description": "Suggestions will not be provided for scopes matching this list. See: https://pulsar-edit.dev/docs/launch-manual/sections/behind-pulsar/#scoped-settings-scopes-and-scope-descriptors",
+      "description": "Suggestions will not be provided for scopes matching this list. See: https://docs.pulsar-edit.dev/behind-pulsar/#scoped-settings-scopes-and-scope-descriptors",
       "type": "array",
       "default": [],
       "items": {

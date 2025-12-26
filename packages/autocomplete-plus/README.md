@@ -85,7 +85,7 @@ If the default `SymbolProvider` is missing useful information for the language /
 
 ## The `watchEditor` API
 
-The `watchEditor` method on the `AutocompleteManager` object is exposed as a [provided service](https://pulsar-edit.dev/docs/launch-manual/sections/behind-pulsar/#interacting-with-other-packages-via-services), named `autocomplete.watchEditor`. The method allows external editors to register for autocompletions from providers with a given set of labels. Disposing the returned object will undo this request. External packages can access this service with the following code.
+The `watchEditor` method on the `AutocompleteManager` object is exposed as a [provided service](https://docs.pulsar-edit.dev/behind-pulsar/#interacting-with-other-packages-via-services), named `autocomplete.watchEditor`. The method allows external editors to register for autocompletions from providers with a given set of labels. Disposing the returned object will undo this request. External packages can access this service with the following code.
 
 In `package.json`:
 ```

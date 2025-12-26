@@ -261,7 +261,7 @@ you have permissions to \`${userStylesheetPath}\`.
         message = `${message}
 
 On Linux there are currently problems with watch sizes. See [this document][watches] for more info.
-[watches]:https://pulsar-edit.dev/docs/atom-archive/hacking-atom/#typeerror-unable-to-watch-path
+[watches]:https://docs.pulsar-edit.dev/atom-archive/hacking-atom/#typeerror-unable-to-watch-path
 `
       }
       this.notificationManager.addError(message, { dismissable: true });

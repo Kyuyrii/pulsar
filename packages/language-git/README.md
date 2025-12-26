@@ -24,6 +24,6 @@ diff part of `git commit --verbose` messages is highlighted as well.
 
 ## Background
 
-Originally [converted](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#converting-from-textmate) from the [Git TextMate bundle](https://github.com/textmate/git.tmbundle).
+Originally [converted](https://docs.pulsar-edit.dev/core-hacking/#converting-from-textmate) from the [Git TextMate bundle](https://github.com/textmate/git.tmbundle).
 
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.

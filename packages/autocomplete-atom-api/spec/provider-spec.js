@@ -97,7 +97,7 @@ describe("Atom API autocompletions", () => {
     expect(getCompletions()[6].snippet).toBe('confirm(${1:options})');
     expect(getCompletions()[6].type).toBe('method');
     expect(getCompletions()[6].leftLabel).toBe('Number');
-    expect(getCompletions()[6].descriptionMoreURL).toBe('https://atom.io/docs/api/latest/AtomEnvironment#instance-confirm');
+    expect(getCompletions()[6].descriptionMoreURL).toBe('https://docs.pulsar-edit.dev/api/pulsar/latest/AtomEnvironment#instance-confirm');
   });
 
   it("includes methods on atom global properties", () => {

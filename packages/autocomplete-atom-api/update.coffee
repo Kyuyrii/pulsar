@@ -76,7 +76,7 @@ convertPropertyToSuggestion = (className, {name, summary}) ->
   {name, text, description, descriptionMoreURL, leftLabel: returnValue, type: 'property'}
 
 getDocLink = (className, instanceName) ->
-  "https://atom.io/docs/api/latest/#{className}#instance-#{instanceName}"
+  "https://docs.pulsar-edit.dev/api/pulsar/latest/#{className}#instance-#{instanceName}"
 
 textComparator = (a, b) ->
   return 1 if a.name > b.name
